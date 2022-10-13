@@ -27,7 +27,7 @@ var dateTime=new Date();
 var month=dateTime.getMonth();
 var monthNames=["January", "February", "March", "April", "May", "June",
 "July", "August", "September", "October", "November", "December"]
-document.getElementById("month").innerHTML=monthNames[month+1];
+document.getElementById("month").innerHTML=monthNames[month];
 var date=dateTime.getDate();
 document.getElementById("date").innerHTML=date;
 var year=dateTime.getFullYear();
